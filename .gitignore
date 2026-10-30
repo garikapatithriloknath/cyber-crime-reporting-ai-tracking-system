@@ -1,0 +1,45 @@
+# ==========================================
+# CyberGuard Security & Privacy Git Ignore
+# ==========================================
+
+# 1. Database & Persistent Local Storage (NEVER commit user data!)
+**/data/
+**/data/*
+**/db_store.json
+backend/data/
+backend/data/db_store.json
+
+# 2. Environment Variables & Credentials (NEVER commit passwords or secrets!)
+**/.env
+**/.env.local
+**/.env.production
+.env
+backend/.env
+
+# 3. Uploaded Evidence Files & Photos
+backend/uploads/*
+!backend/uploads/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# 4. Dependencies
+**/node_modules/
+node_modules/
+
+# 5. Build Artifacts
+**/dist/
+dist/
+build/
+
+# 6. Logs & Temp Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# 7. OS & IDE Metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

@@ -1,0 +1,9 @@
+# Local sensitive data
+data/
+data/db_store.json
+.env
+uploads/*
+!uploads/.gitkeep
+node_modules/
+*.log
+

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "checkJs": false
+  },
+  "exclude": [
+    "**/node_modules",
+    "**/dist",
+    "backend/node_modules",
+    "frontend/node_modules",
+    "node_modules",
+    "dist"
+  ]
+}
